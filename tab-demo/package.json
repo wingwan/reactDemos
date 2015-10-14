@@ -1,0 +1,26 @@
+{
+  "name": "tab-demo",
+  "version": "1.0.0",
+  "description": "react+webpack",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wingwan/reactDemos.git"
+  },
+  "author": "wing",
+  "license": "MIT",
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "react-hot-loader": "^1.1.1",
+    "webpack": "^1.5.1",
+    "webpack-dev-server": "1.6.4",
+    "css-loader": "~0.9.0"
+  },
+  "dependencies": {
+    "react": "^0.12.0"
+  }
+}
