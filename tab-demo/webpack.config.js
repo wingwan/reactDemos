@@ -2,9 +2,9 @@
 var path = require('path');
 
 var config = {
-    entry: [path.resolve(__dirname, 'app/js/index.js')],
+    entry: [path.resolve(__dirname, 'tab-demo/app/js/index.js')],
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'tab-demo/build'),
         filename: 'bundle.js'
     },
     module: {
